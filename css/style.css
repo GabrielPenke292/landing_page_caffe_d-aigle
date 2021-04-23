@@ -1,0 +1,46 @@
+/*Setando as configurações do navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Configurações gerais*/
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+html, body{
+    height: 100%;
+}
+
+/*Header*/
+header{
+    width: 100%;
+    height: 90px;
+    background: #212343;
+}
+
+div.logo img{
+    width: 60px;
+    margin: 19px;
+}
+
+/*Banner*/
+section#banner{
+    width: 100%;
+    height: 557px;
+    background-image: url("../img/header_bg.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+section#banner div.container{
+    height: 100%;
+}
+section#banner div.form-agendar{
+    width: 400px;
+    height: 100%;
+    background-color: white;
+    float: right;
+}
