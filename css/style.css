@@ -16,6 +16,7 @@ html, body{
 
 /*Header*/
 header{
+    min-width: 1280px;
     width: 100%;
     height: 90px;
     background: #212343;
@@ -28,6 +29,7 @@ div.logo img{
 
 /*Banner*/
 section#banner{
+    min-width: 1280px;
     width: 100%;
     height: 557px;
     background-image: url("../img/header_bg.jpg");
@@ -107,6 +109,7 @@ section#banner  .container-list{
 
 /*Section Info*/
 section#info{
+    min-width: 1280px;
     padding: 40px 0;
     background-color: #DDDDDD;
     text-align: center;
@@ -135,3 +138,48 @@ section#info p{
     background-size: cover;
 }
 
+
+/*More*/
+section#more{
+    padding: 90px 0;
+}
+
+#more h2{
+    text-align: center;
+    color: #462663;
+    font-weight: normal;
+}
+
+.destaques{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.destaque-single{
+    float: left;
+    width: 33.3%;
+    padding: 30px;
+}
+.destaque-single p{
+    padding: 10px 25px;
+    text-align: justify;
+}
+
+.destaque-single img{
+    width: 75px;
+    height: 75px;
+}
+
+
+/*footer*/
+footer{
+    clear: both;
+    border-top: 4px solid #888888;
+    padding: 30px 0;
+    text-align: center;
+    color: #888;
+}
+
+footer p{
+    margin-top: 12px;
+}
