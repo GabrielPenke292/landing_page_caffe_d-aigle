@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projeto 01 - Landing Page</title>
+    <title>Café D'Aigle</title>
 
     <!--    css     -->
     <link rel="stylesheet" href="css/style.css">
@@ -22,12 +22,67 @@
 
     <section id="banner">
         <div class="container">
-            <div class="form-agendar">
-                <form action="">
+            <div class="container-list">
+                <ul>
+                    <li>lorem ipsum silum dolor amet</li>
+                    <li>lorem ipsum silum dolor amet</li>
+                    <li>lorem ipsum silum dolor amet</li>
+                    <li>lorem ipsum silum dolor amet</li>
+                </ul>
+            </div><!-- container list -->
 
+            <div class="form-agendar">
+                <h2>Preencha o formulário e faça a sua reserva!</h2>
+                <form action="">
+                    <div class="form-input">
+                        <label for="name">*Nome:</label>
+                        <input type="text" name="name" id="name" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="form-input">
+                        <label for="name">*Telefone:</label>
+                        <input type="number" name="phone" id="phone" placeholder="Digite seu telefone" required>
+                    </div>
+
+                    <div class="form-input">
+                        <label for="date">*Data:</label>
+                        <input type="date" name="date" id="date" required>
+                    </div>
+
+                    <div class="form-input">
+                        <label for="time">*Hora:</label>
+                        <input type="time" name="time" id="time" required>
+                    </div>
+
+                    <div class="form-input">
+                        <label for="qtd">*Mesa para quantos?</label>
+                        <select name="qtd" id="qtd">
+                            <option value="1" selected>1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4+">4+</option>
+                        </select>
+                    </div>
+
+                    <div class="form-input-submit">
+                        <input type="submit" name="acao" value="Reservar">
+                    </div>
+                    <div class="warning">* Campos obrigatórios</div>
                 </form>
             </div><!-- form agendar -->
         </div>
     </section><!-- Banner -->
+
+    <section id="info">
+        <div class="container">
+            <div class="info-box">
+                <h2>Lorem Ipsum</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae dicta facere impedit ipsum odit temporibus unde velit voluptas! Accusamus adipisci aspernatur atque delectus inventore ipsa molestiae quibusdam sed sequi sit Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid ducimus eveniet excepturi facere, fuga in tempore! Ad, assumenda consequuntur debitis dolorum earum, est ex iure nostrum repellat sint soluta?.</p>
+            </div><!-- info box-->
+            <div class="arrow">
+
+            </div>
+        </div><!-- container -->
+    </section>
 </body>
 </html>

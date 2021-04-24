@@ -39,8 +39,99 @@ section#banner div.container{
     height: 100%;
 }
 section#banner div.form-agendar{
+    padding: 13px;
     width: 400px;
-    height: 100%;
-    background-color: white;
+    height: calc(100% + 30px);
+    position: relative;
+    top: -15px;
+    background-color: #fff;
     float: right;
+    border: 8px solid #ccc;
 }
+
+section#banner h2{
+    font-weight: normal;
+    color: #999999;
+    font-size: 20px;
+}
+
+section#banner .form-input{
+    margin-top: 20px;
+}
+
+section#banner label{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 5px;
+    color: #bbbbbb;
+    font-size: 19px;
+}
+
+section#banner input{
+    display: inline-block;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+section#banner .form-input-submit{
+    text-align: center;
+}
+
+section#banner input[type=submit]{
+    color: white;
+    font-size: 20px;
+    margin: 18px 0;
+    width: 280px;
+    height: 56px;
+    background-color: #363a6d;
+    cursor: pointer;
+    padding-top: 12px;
+}
+
+section#banner  .container-list{
+    padding: 45px;
+    margin-top: 40px;
+    float: left;
+    width: 619px;
+    height: 270px;
+    background-color: rgba(33, 35, 67, 0.7);
+}
+.container-list ul{
+    list-style-position: inside;
+}
+.container-list li{
+    margin-top: 18px;
+    color: white;
+}
+
+
+/*Section Info*/
+section#info{
+    padding: 40px 0;
+    background-color: #DDDDDD;
+    text-align: center;
+}
+
+section#info h2{
+    font-weight: normal;
+}
+
+section#info p{
+    margin: 15px 0;
+    width: 692px;
+    display: inline-block;
+    text-align: justify;
+}
+
+.arrow{
+    position: relative;
+    top: 60px;
+    left: 50%;
+    margin-left: -20px;
+    width: 45px;
+    height: 45px;
+    background-image: url("../img/seta.png");
+    background-position: center;
+    background-size: cover;
+}
+
